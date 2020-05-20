@@ -50,6 +50,8 @@ export default {
   ** See https://axios.nuxtjs.org/options
   */
   axios: {
+    baseURL: 'http://laravel-passport.test/api/',
+    credentials: true, // this says that in the request the httponly cookie should be sent
   },
   /*
   ** Build configuration
