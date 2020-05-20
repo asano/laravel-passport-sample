@@ -2,6 +2,12 @@
 export default {
   mode: 'spa',
   /*
+  ** router
+  */
+  router: {
+    middleware: 'refreshToken',
+  },
+  /*
   ** Headers of the page
   */
   head: {
